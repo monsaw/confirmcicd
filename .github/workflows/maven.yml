@@ -27,7 +27,7 @@ jobs:
 
 
     - name: Set up Docker Buildx
-      uses: mr-smithers-execellent/docker-build-push@v5
+      uses: docker/docker-build-push@v5
     - name: Login to DockerHub
       with:
         image: 092022/testing
