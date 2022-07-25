@@ -36,6 +36,8 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>CICD-SETTING</finalName>
+
     </build>
 
 </project>
